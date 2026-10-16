@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "papergame",
+  "version": "${version}",
+  "name": "Paper Game",
+  "description": "Standalone Paper Game with configurable number items.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.papergame.PaperGameClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
